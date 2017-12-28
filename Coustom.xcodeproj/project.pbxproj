@@ -15,6 +15,15 @@
 		041266DE1FF37A6B00CE7B24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041266DD1FF37A6B00CE7B24 /* main.m */; };
 		041266E81FF37A6B00CE7B24 /* CoustomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041266E71FF37A6B00CE7B24 /* CoustomTests.m */; };
 		041266F31FF37A6C00CE7B24 /* CoustomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041266F21FF37A6C00CE7B24 /* CoustomUITests.m */; };
+		041267021FF37E0A00CE7B24 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267011FF37E0A00CE7B24 /* BaseNavigationController.m */; };
+		041267061FF37E3700CE7B24 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267051FF37E3700CE7B24 /* RootTabBarController.m */; };
+		041267091FF37E5B00CE7B24 /* CoustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267081FF37E5B00CE7B24 /* CoustomTabBar.m */; };
+		0412670D1FF37EA200CE7B24 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412670C1FF37EA200CE7B24 /* BaseViewController.m */; };
+		041267101FF37EB100CE7B24 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412670F1FF37EB100CE7B24 /* HomeViewController.m */; };
+		041267131FF37ECA00CE7B24 /* SeconedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267121FF37ECA00CE7B24 /* SeconedViewController.m */; };
+		041267161FF37EDE00CE7B24 /* LookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267151FF37EDE00CE7B24 /* LookViewController.m */; };
+		041267191FF37EE600CE7B24 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267181FF37EE600CE7B24 /* MineViewController.m */; };
+		041267731FF3964100CE7B24 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267721FF3964100CE7B24 /* CenterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,24 @@
 		041266EE1FF37A6C00CE7B24 /* CoustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041266F21FF37A6C00CE7B24 /* CoustomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoustomUITests.m; sourceTree = "<group>"; };
 		041266F41FF37A6C00CE7B24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041267001FF37E0A00CE7B24 /* BaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		041267011FF37E0A00CE7B24 /* BaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		041267041FF37E3700CE7B24 /* RootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
+		041267051FF37E3700CE7B24 /* RootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
+		041267071FF37E5B00CE7B24 /* CoustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoustomTabBar.h; sourceTree = "<group>"; };
+		041267081FF37E5B00CE7B24 /* CoustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoustomTabBar.m; sourceTree = "<group>"; };
+		0412670B1FF37EA200CE7B24 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0412670C1FF37EA200CE7B24 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		0412670E1FF37EB100CE7B24 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0412670F1FF37EB100CE7B24 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		041267111FF37ECA00CE7B24 /* SeconedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeconedViewController.h; sourceTree = "<group>"; };
+		041267121FF37ECA00CE7B24 /* SeconedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeconedViewController.m; sourceTree = "<group>"; };
+		041267141FF37EDE00CE7B24 /* LookViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LookViewController.h; sourceTree = "<group>"; };
+		041267151FF37EDE00CE7B24 /* LookViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LookViewController.m; sourceTree = "<group>"; };
+		041267171FF37EE600CE7B24 /* MineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		041267181FF37EE600CE7B24 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		041267711FF3964100CE7B24 /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		041267721FF3964100CE7B24 /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +128,8 @@
 		041266CD1FF37A6B00CE7B24 /* Coustom */ = {
 			isa = PBXGroup;
 			children = (
+				0412670A1FF37E6C00CE7B24 /* controllers */,
+				041267031FF37E1000CE7B24 /* Base */,
 				041266CE1FF37A6B00CE7B24 /* AppDelegate.h */,
 				041266CF1FF37A6B00CE7B24 /* AppDelegate.m */,
 				041266D11FF37A6B00CE7B24 /* ViewController.h */,
@@ -130,6 +159,38 @@
 				041266F41FF37A6C00CE7B24 /* Info.plist */,
 			);
 			path = CoustomUITests;
+			sourceTree = "<group>";
+		};
+		041267031FF37E1000CE7B24 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				041267001FF37E0A00CE7B24 /* BaseNavigationController.h */,
+				041267011FF37E0A00CE7B24 /* BaseNavigationController.m */,
+				041267041FF37E3700CE7B24 /* RootTabBarController.h */,
+				041267051FF37E3700CE7B24 /* RootTabBarController.m */,
+				041267071FF37E5B00CE7B24 /* CoustomTabBar.h */,
+				041267081FF37E5B00CE7B24 /* CoustomTabBar.m */,
+				0412670B1FF37EA200CE7B24 /* BaseViewController.h */,
+				0412670C1FF37EA200CE7B24 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0412670A1FF37E6C00CE7B24 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0412670E1FF37EB100CE7B24 /* HomeViewController.h */,
+				0412670F1FF37EB100CE7B24 /* HomeViewController.m */,
+				041267111FF37ECA00CE7B24 /* SeconedViewController.h */,
+				041267121FF37ECA00CE7B24 /* SeconedViewController.m */,
+				041267141FF37EDE00CE7B24 /* LookViewController.h */,
+				041267151FF37EDE00CE7B24 /* LookViewController.m */,
+				041267171FF37EE600CE7B24 /* MineViewController.h */,
+				041267181FF37EE600CE7B24 /* MineViewController.m */,
+				041267711FF3964100CE7B24 /* CenterViewController.h */,
+				041267721FF3964100CE7B24 /* CenterViewController.m */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +326,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041267091FF37E5B00CE7B24 /* CoustomTabBar.m in Sources */,
+				041267021FF37E0A00CE7B24 /* BaseNavigationController.m in Sources */,
+				041267061FF37E3700CE7B24 /* RootTabBarController.m in Sources */,
+				041267131FF37ECA00CE7B24 /* SeconedViewController.m in Sources */,
 				041266D31FF37A6B00CE7B24 /* ViewController.m in Sources */,
+				041267731FF3964100CE7B24 /* CenterViewController.m in Sources */,
+				041267191FF37EE600CE7B24 /* MineViewController.m in Sources */,
 				041266DE1FF37A6B00CE7B24 /* main.m in Sources */,
+				0412670D1FF37EA200CE7B24 /* BaseViewController.m in Sources */,
 				041266D01FF37A6B00CE7B24 /* AppDelegate.m in Sources */,
+				041267101FF37EB100CE7B24 /* HomeViewController.m in Sources */,
+				041267161FF37EDE00CE7B24 /* LookViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
