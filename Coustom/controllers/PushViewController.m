@@ -1,18 +1,18 @@
 //
-//  BaseNavigationController.m
+//  PushViewController.m
 //  Coustom
 //
-//  Created by mac on 2017/12/27.
+//  Created by mac on 2017/12/28.
 //  Copyright © 2017年 mac. All rights reserved.
 //
 
-#import "BaseNavigationController.h"
+#import "PushViewController.h"
 
-@interface BaseNavigationController ()
+@interface PushViewController ()
 
 @end
 
-@implementation BaseNavigationController
+@implementation PushViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -23,8 +23,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 /*
 #pragma mark - Navigation

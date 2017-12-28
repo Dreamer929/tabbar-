@@ -24,6 +24,7 @@
 		041267161FF37EDE00CE7B24 /* LookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267151FF37EDE00CE7B24 /* LookViewController.m */; };
 		041267191FF37EE600CE7B24 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267181FF37EE600CE7B24 /* MineViewController.m */; };
 		041267731FF3964100CE7B24 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267721FF3964100CE7B24 /* CenterViewController.m */; };
+		041267761FF4C70600CE7B24 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041267751FF4C70600CE7B24 /* PushViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,8 @@
 		041267181FF37EE600CE7B24 /* MineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		041267711FF3964100CE7B24 /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
 		041267721FF3964100CE7B24 /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		041267741FF4C70600CE7B24 /* PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		041267751FF4C70600CE7B24 /* PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +192,8 @@
 				041267181FF37EE600CE7B24 /* MineViewController.m */,
 				041267711FF3964100CE7B24 /* CenterViewController.h */,
 				041267721FF3964100CE7B24 /* CenterViewController.m */,
+				041267741FF4C70600CE7B24 /* PushViewController.h */,
+				041267751FF4C70600CE7B24 /* PushViewController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				041266D31FF37A6B00CE7B24 /* ViewController.m in Sources */,
 				041267731FF3964100CE7B24 /* CenterViewController.m in Sources */,
 				041267191FF37EE600CE7B24 /* MineViewController.m in Sources */,
+				041267761FF4C70600CE7B24 /* PushViewController.m in Sources */,
 				041266DE1FF37A6B00CE7B24 /* main.m in Sources */,
 				0412670D1FF37EA200CE7B24 /* BaseViewController.m in Sources */,
 				041266D01FF37A6B00CE7B24 /* AppDelegate.m in Sources */,

@@ -10,4 +10,6 @@
 
 @interface BaseViewController : UIViewController
 
+-(void)pushAction:(UIButton*)button;
+
 @end

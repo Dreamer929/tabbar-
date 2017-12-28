@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "PushViewController.h"
 
 @interface HomeViewController ()
 
@@ -24,6 +25,15 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(void)pushAction:(UIButton *)button{
+    
+    PushViewController *vc = [[PushViewController alloc]init];
+    self.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:vc animated:YES];
+    self.hidesBottomBarWhenPushed = NO;
 }
 
 /*

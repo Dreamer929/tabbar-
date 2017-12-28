@@ -10,6 +10,8 @@
 
 @interface BaseViewController ()
 
+@property (nonatomic, strong) UIButton *button;
+
 @end
 
 @implementation BaseViewController
@@ -19,11 +21,25 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self createUI];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark -UI
+
+-(void)createUI{
+    
+    self.button = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.button.frame = CGRectMake(100, 100, 100, 50);
+    self.button.backgroundColor = [UIColor cyanColor];
+    [self.button setTitle:@"push" forState:UIControlStateNormal];
+    [self.button addTarget:self action:@selector(pushAction:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.button];
 }
 
 /*
@@ -35,5 +51,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+#pragma mark -action
+
+-(void)pushAction:(UIButton*)button{
+   
+
+}
 
 @end
